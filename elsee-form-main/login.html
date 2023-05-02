@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/login-styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <div class="content">
+                    <!-- Logo -->
+                    <img
+                        src="https://cdn.glitch.global/464f48d0-f0ae-42c0-aeae-fc5118292f7d/Logo%20Elsee%20Medicine%20(chon).jpg?v=1674273539094"
+                        alt="elsee-logo"
+                    />
+
+                    <!-- Contact -->
+                    <p class="contact">
+                        Elsee Medicine<br />
+                        Address: 10777 Westheimer Rd, Suite 1100, Houston, TX
+                        77042, United States<br />
+                        Website:
+                        <a href="https://elseemedicine.com"
+                            >https://elseemedicine.com</a
+                        >
+                        <br />
+                        Email:
+                        <a href="mailto: info@elseemedicine.com"
+                            >info@elseemedicine.com</a
+                        >
+                    </p>
+                </div>
+            </header>
+
+            <!-- Login Form -->
+            <h1>Login Form</h1>
+            <form id="login-form" method="post" action="">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required />
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+
+                <label for="bvs">BVS:</label>
+                <input type="text" id="bvs" name="bvs" required />
+
+                <button type="submit" id="submit-btn">Login</button>
+            </form>
+            <div id="error-message"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
