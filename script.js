@@ -15,7 +15,7 @@ form.addEventListener("submit", (event) => {
         window.open('./form.html');
     } else {
         errorMessage.textContent =
-            "Invalid username, password, or BVS. Please try again.";
+            "Invalid Username, Password or Institutional Code. Please try again.";
         errorMessage.style.display = "block";
     }
 });
